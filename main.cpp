@@ -1,12 +1,13 @@
 #include <iostream>
 #include <operacoes_aritmeticas.h>
+#include <interface_usuario.h>
 
 using namespace std;
 using namespace max::aritmetica;
 
 int main()
 {
-    cout << "Calculadora Simplona" << endl;
+    max::gui::print_menu();
 
     int x;
     int y;
