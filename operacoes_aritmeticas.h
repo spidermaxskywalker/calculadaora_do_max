@@ -6,6 +6,7 @@ namespace max {
         int soma(int x, int y);
         int subtrai(int x, int y);
         int multiplica(int x, int y);
+        int quociente(int x, int y);
     }
 }
 
