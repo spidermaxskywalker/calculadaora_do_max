@@ -14,9 +14,8 @@ int main()
     cout << "Y: ";
     cin >> y;
 
-    int s = x + y;
-
-    cout << "Soma = " << s << "\n";
+    cout << "Soma = " << (x + y) << "\n";
+    cout << "Diferença = " << (x - y) << "\n";
 
     return 0;
 }
