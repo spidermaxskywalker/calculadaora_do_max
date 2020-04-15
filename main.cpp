@@ -9,7 +9,6 @@ int main()
     int x;
     int y;
 
-
     cout << "X: ";
     cin >> x;
     cout << "Y: ";
