@@ -20,3 +20,8 @@ int max::aritmetica::quociente(int x, int y)
 {
     return x / y;
 }
+
+int max::aritmetica::resto(int x, int y)
+{
+    return x % y;
+}

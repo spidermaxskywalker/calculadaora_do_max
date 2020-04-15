@@ -19,6 +19,8 @@ int main()
     cout << "Soma = " << soma(x, y) << "\n";
     cout << "Subtração = " << subtrai(x, y) << "\n";
     cout << "Multiplicação = " << multiplica(x, y) << "\n";
+    cout << "Quociente = " << quociente(x, y) << "\n";
+    cout << "Resto = " << resto(x, y) << "\n";
 
     return 0;
 }
