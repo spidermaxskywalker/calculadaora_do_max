@@ -1,6 +1,8 @@
 #include <iostream>
+#include <operacoes_aritmeticas.h>
 
 using namespace std;
+using namespace max::aritmetica;
 
 int main()
 {
@@ -9,15 +11,14 @@ int main()
     int x;
     int y;
 
-
     cout << "X: ";
     cin >> x;
     cout << "Y: ";
     cin >> y;
 
-    cout << "Soma = " << (x + y) << "\n";
-    cout << "Subtração = " << (x - y) << "\n";
-    cout << "Multiplicação = " << (x * y) << "\n";
+    cout << "Soma = " << soma(x, y) << "\n";
+    cout << "Subtração = " << subtrai(x, y) << "\n";
+    cout << "Multiplicação = " << multiplica(x, y) << "\n";
 
     return 0;
 }
